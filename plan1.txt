@@ -1,0 +1,9 @@
+1. How did viewing the difference between two files help wth spotting bugs?
+
+Visually spotting the differences showed changes that might have introduced bugs by regression.
+
+2. As a programmer when do you want to save files in progress?
+
+Only when I want it to be saved rather than periodically. Saving periodically can be painful because intermediate versions 
+might even be non-compilable and therefore not worth retaining. I might want to save only when it is logically at a saveable 
+point - say when it is copiled and unnit tested.
